@@ -1,0 +1,30 @@
+.about-container{
+    height: 300px;
+    background-color: #F7F7F9;
+    color: black;
+    
+}
+.network-container{
+    border: 1px solid white;
+    height: 230px;
+    z-index: 50;
+    background-color: white;
+    padding: 10px;
+    font-weight: 500;
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+.new-button{
+    margin-left: 290px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #06E978;
+    border: 1px solid #06E978;
+    height: 40px;
+    width: 50px;
+    border-radius: 50px;
+}

@@ -1,5 +1,20 @@
 .service-container{
     
     
-    height: 400px;
+    height: 500px;
 }
+.explore-button{
+    background-color: #06E978;
+    border: 1px solid #06E978;
+    border-radius: 20px;
+    color: white;
+    width: 130px;
+    padding: 3px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.explore-button:hover{
+    background-color: white;
+    color: #06E978;
+}
+
