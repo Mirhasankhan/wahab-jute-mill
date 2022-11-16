@@ -9,19 +9,19 @@ const About = () => {
             <img src={people} alt=""/>
                 <h4>A Global Network</h4>
                 <p>Lorem ipsum is some dummy<br/>workds to fill up the space for<br/>using later.</p>
-                <button className="new-button"> >> </button>
+                <a href="/gNetwork"><button className="new-button"> >> </button></a>
            </div>
            <div  className="network-container">
            <img src={people} alt=""/>
                 <h4>A Global Network</h4>
                 <p>Lorem ipsum is some dummy<br/>workds to fill up the space for<br/>using later.</p>
-                <button className="new-button"> >> </button>
+                <a href="/gNetwork"><button className="new-button"> >> </button></a>
            </div>
            <div  className="network-container">
            <img src={people} alt=""/>
-                <h4>Innovative Solution</h4>
+                <h4>A Global Network</h4>
                 <p>Lorem ipsum is some dummy<br/>workds to fill up the space for<br/>using later.</p>
-                <button className="new-button"> >> </button>
+                <a href="/gNetwork"><button className="new-button"> >> </button></a>
            </div>
         </div>
     );

@@ -3,6 +3,7 @@ import './App.css';
 import AboutUs from './Components/About Us/AboutUs/AboutUs';
 import ContactUs from './Components/Contactus/ContactUs/ContactUs';
 import Gallery from './Components/Gallery/Gallery/Gallery';
+import GlobalNetwork from './Components/GlobalNetwork/GlobalNetwork/GlobalNetwork';
 import History from './Components/History/History/History';
 import Home from './Components/Home/Home/Home';
 import Priducts from './Components/Products/Products/Priducts';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/products" element={<Priducts></Priducts>}></Route>
           <Route path="/gallery" element={<Gallery></Gallery>}></Route>
           <Route path="/contactUs" element={<ContactUs></ContactUs>}></Route>
+          <Route path="/gNetwork" element={<GlobalNetwork></GlobalNetwork>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

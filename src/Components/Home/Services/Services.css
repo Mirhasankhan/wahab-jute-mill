@@ -12,6 +12,7 @@
     padding: 3px;
     font-weight: 700;
     margin-bottom: 100px;
+    align-content: flex-start;
 }
 .explore-button:hover{
     background-color: white;

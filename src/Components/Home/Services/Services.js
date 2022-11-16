@@ -16,7 +16,7 @@ const Services = () => {
             <h3 style={{ fontWeight: '900', color: 'black' }}>Precise Created Only For You</h3>
             <h3 style={{ fontSize: '80px', color: '#E9620D' }}>Interior Solution</h3>
             <p style={{ fontWeight: '900', color: 'black' }}>If you are looking for blank lorem ipsum<br />sit amet</p>
-            <button className="explore-button">Explore More</button>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><button className="explore-button">Explore More</button></a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -31,7 +31,7 @@ const Services = () => {
             <h3 style={{ fontWeight: '900', color: 'white', textAlign: 'right' }}>Precise Created Only For You</h3>
             <h3 style={{ fontWeight: '900', fontSize: '80px', color: '#E9620D', textAlign: 'right' }}>Total Architecture</h3>
             <p style={{ fontWeight: '900', color: 'white', textAlign: 'right' }}>If you are looking for blank lorem ipsum<br />sit amet</p>
-            <button className="explore-button" style={{ alignItems: 'right' }}>Explore More</button>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><button className="explore-button">Explore More</button></a>
 
           </Carousel.Caption>
         </Carousel.Item>
@@ -46,7 +46,7 @@ const Services = () => {
             <h3 style={{ fontWeight: '900', color: 'white', textAlign: 'left' }}>Precise Created Only For You</h3>
             <h3 style={{ fontSize: '80px', color: '#06E978', textAlign: 'left' }}>Total Architecture</h3>
             <p style={{ fontWeight: '900', color: 'red', textAlign: 'left' }}>If you are looking for blank lorem ipsum<br />sit amet</p>
-            <button className="explore-button">Explore More</button>
+            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><button className="explore-button">Explore More</button></a>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

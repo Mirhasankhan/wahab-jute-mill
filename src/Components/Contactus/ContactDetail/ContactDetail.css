@@ -1,4 +1,33 @@
 .contact-container{
     height: 700px;
     background-color: #F7F7F9;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.envelops{
+    background-color: #06E978;
+    width: 130px;
+    height: 120px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    padding-top: 30px;
+}
+
+.envelop-text{
+    background-color: white;
+    text-align: left;
+    width: 300px;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.input-ul{
+    text-decoration: none;    
+   border: none;
+   border-bottom: 1px solid lightgray;
+   
+   width: 650px;
+   padding: 15px;
+   font-weight: 500;
 }
