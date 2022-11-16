@@ -1,0 +1,18 @@
+.footer-container{
+    background-color: #262E3B;
+    height: 600px;
+}
+.adress{
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.footer-input{
+    background-color: black;
+    border: 1px solid gray;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 15px;
+    width: 250px;
+}
