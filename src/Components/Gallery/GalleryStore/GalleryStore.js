@@ -5,6 +5,7 @@ import laptop from '../../../Images/laptop.jpg';
 import capman from '../../../Images/capman.svg';
 import jewellery from '../../../Images/aurnaments.jpg';
 import together from '../../../Images/together.jpg';
+import ZoomInIcon from '@mui/icons-material/ZoomIn';
 
 const GalleryStore = () => {
     return (
@@ -37,6 +38,15 @@ const GalleryStore = () => {
                 <a href={together}><img style={{ width: '700px', marginRight: '150px',height: '250px'}} src={together} alt=""/></a>
                 
                 </div>
+            </div>
+            <div>
+                <div className="photo-frame">
+                    <img src={summer} alt=""/>
+                </div>
+                <div className="icon-detail">
+                    <ZoomInIcon></ZoomInIcon>
+                </div>
+
             </div>
         </div>
     );

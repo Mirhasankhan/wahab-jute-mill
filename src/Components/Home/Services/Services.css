@@ -2,6 +2,7 @@
     
     
     height: 500px;
+    width: 100%;
 }
 .explore-button{
     background-color: #06E978;
@@ -13,6 +14,8 @@
     font-weight: 700;
     margin-bottom: 100px;
     align-content: flex-start;
+    height: 45px;
+    width: 180px;
 }
 .explore-button:hover{
     background-color: white;

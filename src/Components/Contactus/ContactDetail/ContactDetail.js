@@ -1,6 +1,11 @@
 import React from 'react';
 import './ContactDetail.css';
 import envelop from '../../../Images/envelop.png';
+import GoogleIcon from '@mui/icons-material/Google';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
 
 const ContactDetail = () => {
     return (
@@ -35,6 +40,13 @@ const ContactDetail = () => {
                         </div>
                     </div>
                     <h4 style={{ textAlign: 'left ', marginLeft: '27px', marginTop: '15px' }}>Find Us Here :</h4>
+                    <div className="d-flex ms-4">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><FacebookIcon className="news-icon"></FacebookIcon></a>
+                    <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><GoogleIcon className="news-icon"></GoogleIcon></a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><TwitterIcon className="news-icon"></TwitterIcon></a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className="news-icon"></LinkedInIcon></a>
+                </div>
+
                 </div>
 
                 <div className="col-md-7 bg-white">

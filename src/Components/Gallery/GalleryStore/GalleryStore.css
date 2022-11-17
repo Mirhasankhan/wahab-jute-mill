@@ -1,4 +1,22 @@
 .gallery-container{
-    height: 880px;
+    height: 2000px;
     background-color: #F7F7F9;
+}
+.photo-frame img{
+     width: 650px;
+      margin-left: 130px;
+}
+.icon-detail{
+    position: relative;
+    /* height: 300px;
+    width: 400px; */
+
+   bottom: 100px;
+    display: none;
+    height: 50px;
+}
+.photo-frame:hover .icon-detail{
+    display: block;
+    background-color: gray;
+    
 }

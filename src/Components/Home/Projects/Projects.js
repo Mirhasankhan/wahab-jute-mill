@@ -4,7 +4,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div style={{ backgroundColor: '#F7F7F9', height: '800px' }}>
+        <div style={{ backgroundColor: '#F7F7F9', height: '800px', width: '100%'}}>
             <h2 style={{ paddingTop: '30px', paddingBottom: '10px' }}>Our Projects</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci<br />didunt ut labore et dolore magna aliqua.</p>
             <img src={worker} alt="" />
