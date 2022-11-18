@@ -4,16 +4,18 @@ import Footer from '../Footer/Footer';
 import MoreAbout from '../MoreAbout/MoreAbout';
 import Projects from '../Projects/Projects';
 import Records from '../Records/Records';
-
 import Services from '../Services/Services';
 import Header from './Header/Header';
 
+
 const Home = () => {
+   
     return (
         <div>
             <Header></Header>
             <Services></Services>
             <About></About>
+            {/* <Testing></Testing> */}
             <MoreAbout></MoreAbout>
             <Records></Records>
             <Projects></Projects>

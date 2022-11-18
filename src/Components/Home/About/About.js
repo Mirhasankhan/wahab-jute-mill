@@ -4,7 +4,8 @@ import people from '../../../Images/About.png';
 
 const About = () => {
     return (
-        <div className="d-flex about-container">
+     <section className="about-container">
+             <div className="d-flex">
            <div className="network-container">
                 <img src={people} alt=""/>
                 <h4>A Global Network</h4>
@@ -24,6 +25,7 @@ const About = () => {
                 <a href="/gNetwork"><button className="new-button"> >> </button></a>
            </div>
         </div>
+     </section>
     );
 };
 

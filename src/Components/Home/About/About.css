@@ -8,7 +8,7 @@
 .network-container{
     border: 1px solid white;
     height: 230px;
-    z-index: 50;
+    /* z-index: 50; */
     background-color: white;
     padding: 10px;
     font-weight: 500;

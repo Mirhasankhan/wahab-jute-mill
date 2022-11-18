@@ -39,7 +39,7 @@ const GalleryStore = () => {
                 
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <div className="photo-frame">
                     <img src={summer} alt=""/>
                 </div>
@@ -47,7 +47,7 @@ const GalleryStore = () => {
                     <ZoomInIcon></ZoomInIcon>
                 </div>
 
-            </div>
+            </div> */}
         </div>
     );
 };

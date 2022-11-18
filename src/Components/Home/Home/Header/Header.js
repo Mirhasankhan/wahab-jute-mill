@@ -7,6 +7,7 @@ import Modal from 'react-modal';
 
 const customStyles = {
     content: {
+        
         top: '50%',
         left: '50%',
         right: 'auto',
@@ -32,7 +33,7 @@ const Header = () => {
     return (
         <main className="header-container">
             <div>
-                <img className="set-header" src={mill} alt="" />
+                <a href="/"><img className="set-header" src={mill} alt="" /></a>
             </div>
             <div>
 
@@ -50,6 +51,7 @@ const Header = () => {
                                 <Nav.Link><button className="quote-button" onClick={openModal}>Get a qoute</button></Nav.Link>
 
                                 <Modal
+                                
                                     isOpen={modalIsOpen}
 
                                     onRequestClose={closeModal}
@@ -59,17 +61,17 @@ const Header = () => {
                                     <h2 style={{textAlign:'center',color:'#06E978'}}>QUOTE</h2>
                                     
                                     
-                                    <form>
-                                       <div className="m-3">
-                                        <input style={{marginRight:'20px'}} text="name" placeholder="Enter Your Name"/>
-                                        <input text="email" placeholder="Enter Your Email Address"/>
+                                    <form className="form-container">
+                                       <div className="m-3 d-flex">
+                                        <input className="modal-input" text="name" placeholder="Enter Your Name"/>
+                                        <input className="modal-input ms-5" text="email" placeholder="Enter Your Email Address"/>
                                        </div>
                                        <div className="mb-3">
-                                       <input text="name" placeholder="Enter Your Subject"/>                                      
+                                       <input className="subject-input" text="name" placeholder="Enter Your Subject"/>                                      
                                        </div>
-                                       <textarea placeholder="Enter Description"/>
+                                       <textarea className="des-area" placeholder="Enter Description"/>
                                     </form>
-                                    <button onClick={closeModal}>Submit</button>
+                                    <button onClick={closeModal} className="submit-button">SUBMIT</button>
                                 </Modal>
                             </Nav>
 

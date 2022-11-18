@@ -9,59 +9,62 @@ import GoogleIcon from '@mui/icons-material/Google';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SendIcon from '@mui/icons-material/Send';
-import { FilePresent } from '@mui/icons-material';
+
 
 const Footer = () => {
     return (
-        <section className="row footer-container">
-            <div style={{ paddingTop: '50px' }} className="col-md-3">
+        <section className="footer-container">
+            <div className="d-flex">
+            <div style={{ paddingTop: '50px' }} >
                 <img src={mill} alt="" />
                 <p style={{ color: 'white', textAlign: 'left', paddingLeft: '70px', paddingTop: '20px' }}>Sed ut perspiciatis unde omnis<br /> iste natus error sit voluptatem ac<br />cusantium doloremque laudan<br />tium, totam rem aperiam, eaque<br /> ipsa quae ab illo inventore veri<br />tatis et quasi architecto beatae vita<br />e</p>
             </div>
-            <div className="col-md-3 adress">               
+            <div className="adress">             
                    
-                    <h1>ADDRESS</h1>              
+                    <h5 style={{marginBottom:'30px', marginRight:'60px'}}>ADDRESS</h5>              
                 <div className="d-flex">
                     <LanguageIcon className="envelop-icon"></LanguageIcon>
-                    <h5>3584 Hickory Heights Drive ,Hanover MD 21076, USA</h5>                    
+                    <p>3584 Hickory Heights Drive<br/> ,Hanover MD 21076, USA</p>                    
                 </div>
                 <div className='d-flex'>
                     <PhoneEnabledIcon className="envelop-icon"></PhoneEnabledIcon>
-                <h4>00 00 000 0</h4>
+                <p>00 00 000 000</p>
                 </div>
                <div className="d-flex">
                  <MailOutlineIcon className="envelop-icon"></MailOutlineIcon>
-                 <h5>mirhasan000034@gmail.com</h5>
+                 <p>mirhasan000034@gmail.com</p>
                </div>
 
             </div>
-            <div className="col-md-3 adress">
-                <h1>Useful Links</h1>
-                <h4>About Us </h4>
-                <h4>History</h4>
-                <h4>Gallery</h4>
-                <h4>Privacy & Policy </h4>
-                <h4>Contact Us </h4>
+            <div className="adress">
+                <h3 style={{marginBottom:'20px', marginRight:'120px'}}>Useful Links</h3>
+                <p>About Us </p>
+                <p>History</p>
+                <p>Gallery</p>
+                <p>Privacy & Policy </p>
+                <p>Contact Us </p>
 
             </div>
-            <div className="col-md-3 adress">
-                <h1>NewsLetter</h1>
+            <div className="adress">
+                <h3 style={{marginBottom:'30px'}}>NewsLetter</h3>
                 <form>
                     <input className="footer-input" text="email" placeholder="your email address..."/>
                     <button className="send-icon"><SendIcon className="iconsss"></SendIcon></button>
                 </form>
-                <h6 style={{ paddingTop: '10px' }}>We're Social Connect With Us</h6>
+                <p style={{ paddingTop: '10px' }}>We're Social Connect With Us</p>
                 <div className="d-flex">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><FacebookIcon className="news-icon"></FacebookIcon></a>
                     <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><GoogleIcon className="news-icon"></GoogleIcon></a>
                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><TwitterIcon className="news-icon"></TwitterIcon></a>
                     <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className="news-icon"></LinkedInIcon></a>
                 </div>
+            </div>        
+
 
             </div>
-            <h5 style={{ color: 'white', paddingTop: '80px',borderTop: '1px solid gray' }}>COPYRIGHT © 2022. All Rights Reserved</h5>
-
+            <p className="footer-con">COPYRIGHT © 2022. All Rights Reserved</p>
         </section>
+        
     );
 };
 
