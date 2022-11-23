@@ -28,9 +28,9 @@ const Services = () => {
 
           <Carousel.Caption>
 
-            <h3 style={{ fontWeight: '900', color: 'white', textAlign: 'right' }}>Precise Created Only For You</h3>
+            <h3 style={{ fontWeight: '900', color: 'blue', textAlign: 'right' }}>Precise Created Only For You</h3>
             <h3 style={{ fontWeight: '900', fontSize: '80px', color: '#E9620D', textAlign: 'right' }}>Total Architecture</h3>
-            <p style={{ fontWeight: '900', color: 'white', textAlign: 'right' }}>If you are looking for blank lorem ipsum<br />sit amet</p>
+            <p style={{ fontWeight: '900', color: 'blue', textAlign: 'right' }}>If you are looking for blank lorem ipsum<br />sit amet</p>
             <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><button className="explore-button">Explore More</button></a>
 
           </Carousel.Caption>

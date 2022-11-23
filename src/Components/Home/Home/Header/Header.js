@@ -40,8 +40,8 @@ const Header = () => {
                 <Navbar expand="lg">
                     <Container>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto">
+                        <Navbar.Collapse  id="basic-navbar-nav">
+                            <Nav  className="me-auto">
                                 <Nav.Link href="/" className="nav-hov">Home</Nav.Link>
                                 <Nav.Link href="/aboutUs" className="nav-hov">About Us</Nav.Link>
                                 <Nav.Link href="/history" className="nav-hov">History</Nav.Link>
@@ -69,7 +69,7 @@ const Header = () => {
                                        <div className="mb-3">
                                        <input className="subject-input" text="name" placeholder="Enter Your Subject"/>                                      
                                        </div>
-                                       <textarea className="des-area" placeholder="Enter Description"/>
+                                       <textarea style={{height: '150px'}} className="des-area" placeholder="Enter Description"/>
                                     </form>
                                     <button onClick={closeModal} className="submit-button">SUBMIT</button>
                                 </Modal>

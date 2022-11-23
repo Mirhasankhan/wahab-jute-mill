@@ -55,7 +55,7 @@ const Records = () => {
                         <div className="mb-3">
                             <input className="subject-input" text="name" placeholder="Enter Your Subject" />
                         </div>
-                        <textarea className="des-area" placeholder="Enter Description" />
+                        <textarea style={{height:'150px'}} className="des-area" placeholder="Enter Description" />
                     </form>
                     <button onClick={closeModal} className="submit-button">SUBMIT</button>
                 </Modal>
